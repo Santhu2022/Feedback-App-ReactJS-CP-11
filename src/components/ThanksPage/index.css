@@ -1,0 +1,36 @@
+.thanks-container {
+  width: 80%;
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .thanks-container {
+    width: 30%;
+    padding: 40px;
+  }
+}
+.thanks-text {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .thanks-text {
+    font-size: 26px;
+  }
+}
+.thanks-description {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 18px;
+  text-align: center;
+}
+.love-emoji{
+    width: 70px;
+}
